@@ -1,0 +1,32 @@
+
+.menu{
+    display: flex;
+    overflow-x: hidden;
+    margin-top: 200px;
+
+}
+.scroll-button-left img,.scroll-button-right img{
+     margin-right: 10px;
+     border-radius: 20px;
+     border: 2px solid orange;
+}
+.scroll-button-left,.scroll-button-right{
+    border: none;
+    float: right;
+    background-color: white;
+}
+.menu-category{
+     text-align: center;
+     width: 120px;
+}
+.menu-img {
+    width: 120px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.menu-category.active1 {
+      border: 2px solid orange;
+      border-radius: 5px;
+      padding: 3px;
+}

@@ -1,0 +1,67 @@
+.cart{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+.box{
+   display: flex;
+   border:3px solid orange ;
+   width: 600px;
+   height: 250px;
+   margin-top: 30px;
+}
+.box img{
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.details{
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.details p{
+     margin-top: 15px;
+}
+.details .cost{
+      color: brown;
+      font-weight: bold;
+      font-size: 20px;
+}
+.box h3{
+     color: tomato;
+     margin-top: 5px;
+     margin-bottom: 10px;
+}
+.box h4{
+    color: crimson;
+    margin-top: 20px;
+
+}
+.details .remove-button{
+    width: 100px;
+    height: 25px;
+     border-radius: 15px;
+     border: 2px solid tomato;
+     color: red;
+     background-color: white;
+     margin: 20px;
+     font-weight: bold;
+     margin-bottom: 20px;
+     margin-left: 100px;
+}
+.remove-button:hover{
+    background-color: red;
+    color: white;
+}
+.order-button{
+      width: 200px;
+      height: 50px;
+      margin: auto;
+      margin-left: 700px;
+      margin-top: 50px;
+      color:black;
+      font-weight: bold;
+      background-color:greenyellow ;
+      border-radius: 20px;
+
+}

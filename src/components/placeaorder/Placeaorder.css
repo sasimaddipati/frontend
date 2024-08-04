@@ -1,0 +1,93 @@
+/* Placeaorder.css */
+.place-order-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+input{
+     background-color: bisque;
+}
+
+.place-order-form {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    border: 2px solid orange;
+    margin-top: 50px;
+    padding: 25px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+   
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+    margin-left: 10px;
+}
+
+.form-group input {
+    width: 75%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.address-button{
+    
+    background-color: greenyellow;
+      width: 150px;
+      height: 30px;
+      color: rgb(13, 14, 13);
+      font-weight: bold;
+      text-align: center;
+      margin: auto;
+}
+.cart-items{
+     border: 2px solid orange;
+     padding: 25px;
+     padding: 25px;
+     background-color: beige;
+}
+.cart-items h3{
+    color: black;
+    font-weight: bold;
+
+}
+.cart-items h2{
+    color: rgb(15, 183, 65);
+    margin-bottom: 25px;
+}
+.total-cost{
+     margin-top:15px;
+
+     font-weight: bold;
+}
+.item{
+     margin-top: 10px;
+}
+.pay-button{
+      width: 150px;
+      height: 30px;
+      border: 2px solid black;
+        color: rgb(13, 14, 13);
+        font-weight: bold;
+      background-color: greenyellow;
+      margin-top: 15px;
+      margin-left: 20%;
+}
+.mess-money{
+     color: red;
+     margin-left: 50px;
+}
